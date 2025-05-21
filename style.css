@@ -1,0 +1,66 @@
+/* Global body style */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+/* Container for the bucket list */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title style */
+h1 {
+    text-align: center;
+    color: #4a90e2;
+}
+
+/* Bucket list style */
+.bucket-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* List item style */
+.bucket-list li {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+/* Completed items style */
+.completed {
+    background-color: #d4edda;
+    color: #155724;
+    text-decoration: line-through;
+}
+
+/* Pending items style */
+.pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .bucket-list li {
+        font-size: 1rem;
+    }
+}
